@@ -12,14 +12,14 @@ export default define.layout(function RootLayout ({Component, state, url}) {
   return (
 
     <div class="layout" f-client-nav>
-      <div class='flex justify-between text-white mt-[2em] ml-[2em] mr-[2em] items-center'>
+      <div class='flex justify-between mt-[2em] ml-[2em] mr-[2em] items-center'>
 	<a href="/" class={`text-[1.25em] ${url.pathname === "/" ? "font-bold" : ""}`}>
 	  <h2 class='text-[2rem] font-bold italic'>C.D.W</h2>
 	</a>
 	<Counter count={count}/>
 	<Nav url={url}/>
       </div>
-      <main class='text-white'>
+      <main class=''>
 	<Partial name='main'>
 		  <Component />
 	</Partial>

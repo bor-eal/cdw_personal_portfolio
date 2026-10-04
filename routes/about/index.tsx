@@ -11,7 +11,7 @@ export const config: RouteConfig = {
 export default define.page(function About () {
   return (
     <Partial name='about'>
-         <div class="px-4 py-8 mx-auto fresh-gradient min-h-screen">
+         <div class="px-4 py-8 mx-auto min-h-screen">
 	   <Head>
 	     <title>About CDW: Callum Daley-West</title>
 	   </Head>
