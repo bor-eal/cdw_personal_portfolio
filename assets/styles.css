@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/*
+.fresh-gradient {
+  background-color: rgb(134, 239, 172);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(219, 234, 254),
+    rgb(187, 247, 208),
+    rgb(254, 249, 195)
+  );
+}
+*/
+
+.fresh-gradient {
+      background-image: linear-gradient(
+    180deg,
+    hsl(0deg 0% 4%) 52%,
+    hsl(25deg 75% 15%) 68%,
+    hsl(26deg 82% 20%) 74%,
+    hsl(26deg 86% 24%) 79%,
+    hsl(27deg 88% 28%) 82%,
+    hsl(27deg 89% 31%) 85%,
+    hsl(27deg 91% 34%) 87%,
+    hsl(28deg 92% 36%) 90%,
+    hsl(28deg 93% 38%) 92%,
+    hsl(28deg 94% 41%) 94%,
+    hsl(28deg 94% 43%) 96%,
+    hsl(28deg 95% 44%) 98%,
+    hsl(28deg 96% 46%) 100%
+  );
+}
