@@ -19,9 +19,9 @@ export default define.page(function About () {
              <h1 class="text-4xl font-bold">About CDW: Callum Daley-West</h1>
              <p class="my-4">Talk to me about gardening, fruit and veg is best, acient history or other cultures and we will be fast friends</p>
            </div>
-	   <nav>
-	     <a href='#'>Codeberg</a>
-	     <a href='#'>Github</a>
+	   <nav class='flex gap-[1em] my-[.5rem] items-center justify-center'>
+	     <a href='https://codeberg.org/bor-eal' target='_blank'>Codeberg</a>
+	     <a href='https://github.com/bor-eal' target='_blank'>Github</a>
 	     <a href='#'>LinkedIn</a>
 	     <a href='#'>Github</a>
 	   </nav>

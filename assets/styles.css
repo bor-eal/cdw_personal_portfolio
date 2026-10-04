@@ -11,9 +11,27 @@
 }
 */
 
+body {
+	box-sizing: content-box;
+	font-family: 'Courier New';
+}
+
+button {
+	font-family: 'Courier New';
+}
+
 .light-mode {
 	background-color: #ffffff;
 	color: black;	
+}
+
+.dark-mode {
+	background-color: black;
+	color: #ffffff;
+}
+
+a:hover {
+	color: hotpink;
 }
 
 .fresh-gradient {
