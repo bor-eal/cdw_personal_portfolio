@@ -22,8 +22,6 @@ export default define.page(function About () {
 	   <nav class='flex gap-[1em] my-[.5rem] items-center justify-center'>
 	     <a href='https://codeberg.org/bor-eal' target='_blank'>Codeberg</a>
 	     <a href='https://github.com/bor-eal' target='_blank'>Github</a>
-	     <a href='#'>LinkedIn</a>
-	     <a href='#'>Github</a>
 	   </nav>
 	   </div>
 	   </Partial>

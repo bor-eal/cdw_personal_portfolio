@@ -1,4 +1,4 @@
-export default function Nav ({url}) {
+export default function Nav () {
   return (
 	  <nav class='flex gap-x-[1em]'>
             <a href="/about" class={`text-[1.25em] aria-[current]:font-bold`}>About</a>

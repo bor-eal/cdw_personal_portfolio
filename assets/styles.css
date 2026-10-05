@@ -15,12 +15,16 @@ html[data-theme='dark'] {
 	--background-color: black;
 	--color: #ffffff;
 	--button-bg-color: black;
+	--toggle-div-color: #ffffff;
+	--toggle-div-bd-color: #ffffff;
 }
 
 html[data-theme='light'] {
 	--background-color: #ffffff;
 	--color: black;
 	--button-bg-color: #ffffff;
+	--toggle-div-color: black;
+	--toggle-div-bd-color: black;
 }
 
 body {
@@ -36,9 +40,16 @@ button {
 	background-color: var(--button-bg-color)
 }
 
+.user-toggle {
+	border-color: var(--toggle-div-bd-color);
+	background-color: var(--toggle-div-color)
+}
+
 a:hover {
 	color: hotpink;
+	font-weight: bold;
 }
+
 
 .fresh-gradient {
       background-image: linear-gradient(
