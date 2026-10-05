@@ -14,11 +14,13 @@
 html[data-theme='dark'] {
 	--background-color: black;
 	--color: #ffffff;
+	--button-bg-color: black;
 }
 
 html[data-theme='light'] {
 	--background-color: #ffffff;
 	--color: black;
+	--button-bg-color: #ffffff;
 }
 
 body {
@@ -30,16 +32,8 @@ body {
 
 button {
 	font-family: 'Courier New';
-}
-
-.light-mode {
-	background-color: #ffffff;
-	color: black;	
-}
-
-.dark-mode {
-	background-color: black;
-	color: #ffffff;
+	cursor: pointer;
+	background-color: var(--button-bg-color)
 }
 
 a:hover {

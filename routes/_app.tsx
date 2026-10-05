@@ -3,12 +3,12 @@ import { Partial } from "fresh/runtime";
 
 export default define.page(function App({ Component }) {
   return (
-    <html>
+    <html data-theme='dark'>
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body class='dark-mode'>
+      <body>
 	
 	  <Component />
 	
