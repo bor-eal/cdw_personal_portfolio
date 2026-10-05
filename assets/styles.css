@@ -11,9 +11,21 @@
 }
 */
 
+html[data-theme='dark'] {
+	--background-color: black;
+	--color: #ffffff;
+}
+
+html[data-theme='light'] {
+	--background-color: #ffffff;
+	--color: black;
+}
+
 body {
 	box-sizing: content-box;
 	font-family: 'Courier New';
+	background-color: var(--background-color);
+	color: var(--color);
 }
 
 button {

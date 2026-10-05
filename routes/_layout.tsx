@@ -3,7 +3,8 @@ import Footer from '@/components/footer'
 import {useSignal} from '@preact/signals'
 import Counter from '@/islands/Counter.tsx'
 import { Partial } from "fresh/runtime";
-import Nav from '@/islands/Nav.tsx'
+import Nav from '@/components/Nav.tsx'
+import Toggle from '@/islands/Toggle.tsx'
 
 export default define.layout(function RootLayout ({Component, state, url}) {
   const count = useSignal(3)
@@ -17,6 +18,7 @@ export default define.layout(function RootLayout ({Component, state, url}) {
 	  <h2 class='text-[2rem] font-bold italic'>C.D.W</h2>
 	</a>
 	<Counter count={count}/>
+	<Toggle/>
 	<Nav url={url}/>
       </div>
       <main class=''>
