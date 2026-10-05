@@ -2,16 +2,10 @@ import { define } from "@/utils.ts";
 import { Head } from "fresh/runtime";
 import { Partial } from "fresh/runtime";
 
-
-export const config: RouteConfig = {
-  // skipAppWrapper: true,
-  // skipInheritedLayouts: true,
-};
-
 export default define.page(function About () {
   return (
     <Partial name='about'>
-         <div class="px-4 py-8 mx-auto min-h-screen">
+         <div class="px-4 py-8 mx-auto">
 	   <Head>
 	     <title>About CDW: Callum Daley-West</title>
 	   </Head>

@@ -16,7 +16,7 @@ export default define.layout(function RootLayout ({Component, state, url}) {
 				<a href="/" class={`text-[1.25em] ${url.pathname === "/" ? "font-bold" : ""}`}>
 	  			<h2 class='text-[2rem] font-bold italic'>C.D.W</h2>
 				</a>
-				<div class='flex gap-[1.25em]'>
+				<div class='flex gap-[1.25em] items-center'>
 					<Nav/>
 					<Toggle/>
 

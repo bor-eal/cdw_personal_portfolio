@@ -9,7 +9,7 @@ export default define.page(function Home(ctx) {
   console.log("Shared value " + ctx.state.shared);
 
   return (
-    <div class="px-4 py-8 mx-auto min-h-screen">
+    <div class="px-4 py-8 mx-auto ">
       <Head>
 	<title>First Play With a Fresh Project</title>
       </Head>

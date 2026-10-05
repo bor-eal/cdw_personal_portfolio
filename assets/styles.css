@@ -12,19 +12,19 @@
 */
 
 html[data-theme='dark'] {
-	--background-color: black;
-	--color: #ffffff;
-	--button-bg-color: black;
-	--toggle-div-color: #ffffff;
-	--toggle-div-bd-color: #ffffff;
+	--background-color: #171717;
+	--color: #e5e5e5;
+	--button-bg-color: #171717;
+	--toggle-div-color: #e5e5e5;
+	--toggle-div-bd-color: #e5e5e5;
 }
 
 html[data-theme='light'] {
-	--background-color: #ffffff;
-	--color: black;
-	--button-bg-color: #ffffff;
-	--toggle-div-color: black;
-	--toggle-div-bd-color: black;
+	--background-color: #e5e5e5;
+	--color: #171717;
+	--button-bg-color: #e5e5e5;
+	--toggle-div-color: #171717;
+	--toggle-div-bd-color: #e5e5e5;
 }
 
 body {
