@@ -29,7 +29,7 @@ html[data-theme='light'] {
 
 body {
 	box-sizing: content-box;
-	font-family: 'Courier New';
+	font-family: 'Verdana';
 	background-color: var(--background-color);
 	color: var(--color);
 }

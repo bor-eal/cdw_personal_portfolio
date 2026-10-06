@@ -1,32 +1,32 @@
 import { useSignal } from "@preact/signals";
 import { Head } from "fresh/runtime";
 import { define } from "../utils.ts";
-import Counter from "../islands/Counter.tsx";
 
 export default define.page(function Home(ctx) {
-  const count = useSignal(3);
 
   console.log("Shared value " + ctx.state.shared);
 
   return (
     <div class="px-4 py-8 mx-auto ">
       <Head>
-	<title>First Play With a Fresh Project</title>
+				<title>CDW welcomes you</title>
       </Head>
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <img
-          class="my-6"
+          class="my-6 rounded-full"
           src="/logo.svg"
           width="128"
           height="128"
-          alt="the Fresh logo: a sliced lemon dripping with juice"
+          alt="Photo of Callum Daley-West"
         />
-        <h1 class="text-4xl font-bold">Welcome to Fresh</h1>
-        <p class="my-4">
-          Try updating this message in the
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
-        </p>
-        <Counter count={count} />
+        <h1 class="text-4xl font-bold">Welcome</h1>
+        <p class="my-4" >
+        I am a full stack web developer working from the UK.  This site will let you learn about me, reveal a few of my thoughts, point you to some of my work and help you reach out if you want to make contact. Why not try these to get started:
+				</p>
+				<h4>Latest Post</h4>
+				<a href="/posts">How I built it: the making of this site and my thoughts on fresh</a>
+				<h4>Pick from the Trove</h4>
+				<a href="https://elf-exchange.scatter.deno.net/" target="_blank">Elf Exchnage: A simple tool to help you generate random paris for a gift exchnage group</a>
       </div>
     </div>
   );
