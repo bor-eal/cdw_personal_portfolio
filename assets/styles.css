@@ -6,6 +6,7 @@ html[data-theme='dark'] {
 	--button-bg-color: #171717;
 	--toggle-div-color: #e5e5e5;
 	--toggle-div-bd-color: #e5e5e5;
+	--box-background-color: #262626;
 }
 
 html[data-theme='light'] {
@@ -14,11 +15,12 @@ html[data-theme='light'] {
 	--button-bg-color: #e5e5e5;
 	--toggle-div-color: #171717;
 	--toggle-div-bd-color: #e5e5e5;
+	--box-background-color: #d4d4d4;
 }
 
 body {
 	box-sizing: content-box;
-	font-family: 'Verdana';
+	font-family: 'Candara', sans-serif;
 	background-color: var(--background-color);
 	color: var(--color);
 }
@@ -35,9 +37,12 @@ button {
 }
 
 a:hover {
+	text-shadow: 0px 1px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.1), 0px 2px 4px rgb(0 0 0 / 0.1);
 	color: hotpink;
-	font-weight: bold;
+/*	box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);*/
 }
+
+/*Layout*/
 
 /*Typography*/
 
@@ -67,3 +72,8 @@ blockquote {
 hr {
 	margin: 1.5rem .75rem;
 }
+
+.box {
+	background-color: var(--box-background-color);
+}
+

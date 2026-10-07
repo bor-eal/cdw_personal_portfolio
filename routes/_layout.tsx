@@ -22,10 +22,10 @@ export default define.layout(function RootLayout ({Component, state, url}) {
 
 				</div>     
  			</div>
-    <main class=''>
-			<Partial name='main'>
-		  	<Component />
-			</Partial>
+    	<main>
+				<Partial name='main'>
+		  		<Component />
+				</Partial>
       </main>
       <Footer/>
     </div>

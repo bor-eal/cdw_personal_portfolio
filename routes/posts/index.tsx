@@ -1,11 +1,15 @@
 import { define } from '@/utils.ts'
+import {Head} from 'fresh/runtime'
 import PostBox from '@/components/PostBox.tsx'
 
 export default define.page(function Posts () {
 
     return (
 			<div class='max-w-4xl text-center grid justify-center align-center mx-auto'>
-      	<h1 class="m-[1em]">Posts</h1>
+      	<Head>
+					<title>Posts lists</title>
+				</Head>
+				<h1 class="m-[1em]">Posts</h1>
 				<PostBox title="How I built it" 
 									index={1}
 									href="posts/1"

@@ -4,8 +4,6 @@ import { define } from "../utils.ts";
 
 export default define.page(function Home(ctx) {
 
-  console.log("Shared value " + ctx.state.shared);
-
   return (
     <div class="px-4 py-8 mx-auto ">
       <Head>
@@ -24,9 +22,9 @@ export default define.page(function Home(ctx) {
         I am a full stack web developer working from the UK.  This site will let you learn about me, reveal a few of my thoughts, point you to some of my work and help you reach out if you want to make contact. Why not try these to get started:
 				</p>
 				<h4>Latest Post</h4>
-				<a href="/posts">How I built it: the making of this site and my thoughts on fresh</a>
+				<a href="/posts/1">How I built it: the making of this site and my thoughts on fresh</a>
 				<h4>Pick from the Trove</h4>
-				<a href="https://elf-exchange.scatter.deno.net/" target="_blank">Elf Exchnage: A simple tool to help you generate random paris for a gift exchnage group</a>
+				<a href="https://elf-exchange.scatter.deno.net/" target="_blank">Elf Exchnage: A simple tool to help you generate random pairs for a gift exchange group</a>
       </div>
     </div>
   );
