@@ -10,7 +10,7 @@ export default define.page(function About () {
 	     <title>About CDW: Callum Daley-West</title>
 	   </Head>
 	   <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-             <h1 class="text-4xl font-bold">About CDW: Callum Daley-West</h1>
+             <h1 class="text-4xl font-bold m-[1em]">About CDW: Callum Daley-West</h1>
              <p class="my-4">Talk to me about gardening, fruit and veg is best, acient history or other cultures and we will be fast friends</p>
            </div>
 	   <nav class='flex gap-[1em] my-[.5rem] items-center justify-center'>

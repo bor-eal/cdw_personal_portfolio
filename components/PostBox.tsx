@@ -9,7 +9,7 @@ export type PostBoxProps = {
 export default function PostBox ({href, date, index, title, description}:PostBoxProps) {
 
   return (
-    <a href={href} target='_blank'>
+    <a href={href} >
       <div class='max-w-4xl border-4 p-[1em] rounded-xl flex items-center'>
 				<h2>{index}</h2>
 				<div>

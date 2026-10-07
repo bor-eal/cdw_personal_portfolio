@@ -4,8 +4,8 @@ import PostBox from '@/components/PostBox.tsx'
 export default define.page(function Posts () {
 
     return (
-			<div class='max-w-4xl text-center grid justify-center align-center'>
-      	<h1>Posts</h1>
+			<div class='max-w-4xl text-center grid justify-center align-center mx-auto'>
+      	<h1 class="m-[1em]">Posts</h1>
 				<PostBox title="How I built it" 
 									index={1}
 									href="posts/1"
