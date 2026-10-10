@@ -10,10 +10,14 @@ export default define.page(function About () {
 	     <title>About CDW: Callum Daley-West</title>
 	   </Head>
 	   <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-             <h1 class="text-4xl font-bold m-[1em]">About CDW: Callum Daley-West</h1>
-             <p class="my-4">Talk to me about gardening, fruit and veg is best, acient history or other cultures and we will be fast friends</p>
+             <h1 class="text-4xl font-bold m-[1em]">About CDW</h1>
+             <p class="my-4 text-center text-[1.25rem]">Time for a little familiarisation.  I am Callum Daley-West a fullstack web developer and javascript programmer working in the UK.<br/><br/>
+I am keen to work on varied projects in passionate teams.  I am always looking to test my understanding and develop new skills by trying out new frameworks, SDKs and methodologies. I have previously worked as a Charted Engineer after studying a related physics/engineering degree at university in the midlands.<br/><br/>
+Whilst this site is focused on programming a web development you can also peak my interest by discussing music (almost any genre will do), travel and other cultures, cooking, ancient history, and gardening specifically vegetable cultivation.<br/><br/>
+
+Contact me about any of the above, or maybe something else, <a href='/contact'>here</a>.</p>
            </div>
-	   <nav class='flex gap-[1em] my-[.5rem] items-center justify-center'>
+	   <nav class="flex gap-[1em] my-[1.5em] items-center justify-center text-[1.25rem] font-bold">
 	     <a href='https://codeberg.org/bor-eal' target='_blank'>Codeberg</a>
 	     <a href='https://github.com/bor-eal' target='_blank'>Github</a>
 	   </nav>
