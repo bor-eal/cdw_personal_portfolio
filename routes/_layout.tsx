@@ -12,9 +12,9 @@ export default define.layout(function RootLayout ({Component, state, url}) {
   return (
 
     <div class="layout" f-client-nav>
-      <div class='flex justify-between mt-[2em] ml-[2em] mr-[2em] items-center'>
+      <div class='flex justify-between pt-[1em] ml-[2em] mr-[2em] items-center'>
 				<a href="/" class={`text-[1.25em] ${url.pathname === "/" ? "font-bold" : ""}`}>
-	  			<h2 class='text-[2rem] font-bold italic'>C.D.W</h2>
+	  			<h2 class='text-[2rem] font-bold'>CDW</h2>
 				</a>
 				<div class='flex gap-[1.25em] items-center'>
 					<Nav/>

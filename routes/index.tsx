@@ -12,13 +12,13 @@ export default define.page(function Home(ctx) {
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <img
           class="my-6 rounded-full"
-          src="/logo.svg"
+          src="/cdw_outdoors_headshot.png"
           width="128"
           height="128"
           alt="Photo of Callum Daley-West"
         />
         <h1 class="text-4xl font-bold">Welcome</h1>
-        <p class="my-4" >
+        <p class="my-4 text-center" >
         I am a full stack web developer working from the UK.  This site will let you learn about me, reveal a few of my thoughts, point you to some of my work and help you reach out if you want to make contact. Why not try these to get started:
 				</p>
 				<h4>Latest Post</h4>

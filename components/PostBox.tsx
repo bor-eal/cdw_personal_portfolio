@@ -10,8 +10,8 @@ export default function PostBox ({href, date, index, title, description}:PostBox
 
   return (
     <a href={href} >
-      <div class="box max-w-4xl p-[1em] rounded-xl flex">
-				<h2>{index}</h2>
+      <div class="box max-w-4xl p-[1em] rounded-xl flex align-center justify-center">
+				<h2 class="text-center align-middle">{index}</h2>
 				<div>
 					<p class="mx-[1em] my-[0] text-left">{date}</p>
 					<h4 class="mx-[1em] mb-[1em] mt-[.25em] text-[1.25em] font-bold text-left">{title}</h4>
