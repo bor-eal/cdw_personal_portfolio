@@ -10,11 +10,13 @@ export default function PostBox ({href, date, index, title, description}:PostBox
 
   return (
     <a href={href} >
-      <div class="box max-w-4xl p-[1em] rounded-xl flex align-center justify-center">
-				<h2 class="text-center align-middle">{index}</h2>
+      <div class="box md:max-w-4xl mx-[1.5em] p-[1em] rounded-xl flex flex-col align-center md:align-initial md:flex-row align-center justify-center">
+				<div class="">
+					<h2 class="self-start justify-self-start md:text-center inline align-middle ">#{index}</h2>
+				</div>
 				<div>
-					<p class="mx-[1em] my-[0] text-left">{date}</p>
-					<h4 class="mx-[1em] mb-[1em] mt-[.25em] text-[1.25em] font-bold text-left">{title}</h4>
+					<p class="mx-[1em] my-[0] text-cetner md:text-left">{date}</p>
+					<h4 class="mx-[1em] mb-[1em] mt-[.25em] text-center text-[1.25em] font-bold md:text-left">{title}</h4>
 					<p class="mx-[1em]">{description}</p>
     		</div>
 			</div>

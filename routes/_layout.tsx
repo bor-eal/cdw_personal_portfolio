@@ -6,12 +6,9 @@ import Nav from '@/components/Nav.tsx'
 import Toggle from '@/islands/Toggle.tsx'
 
 export default define.layout(function RootLayout ({Component, state, url}) {
-  const count = useSignal(3)
-  
-  
-  return (
 
-    <div class="layout" f-client-nav>
+  return (
+    <div class="layout" f-client-nav f-view-transition>
       <div class='flex justify-between pt-[1em] ml-[2em] mr-[2em] items-center'>
 				<a href="/" class={`text-[1.25em] ${url.pathname === "/" ? "font-bold" : ""}`}>
 	  			<h2 class='text-[2rem] font-bold'>CDW</h2>

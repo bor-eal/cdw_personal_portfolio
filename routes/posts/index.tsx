@@ -10,7 +10,7 @@ export default define.page(function Posts () {
 					<title>Posts lists</title>
 				</Head>
 				<h1 class="m-[1em]">Posts</h1>
-				<PostBox title="How I built it" 
+				<PostBox title="Working with Fresh: Building this site" 
 									index={1}
 									href="posts/1"
 									description="Learn about the creation of this site and my thoughts as a fresh faced developer using fresh"
