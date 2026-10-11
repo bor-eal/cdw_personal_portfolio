@@ -5,9 +5,10 @@ export default define.page(function Post () {
 	return (
 	<>
 		<article class="max-w-6xl mx-auto">
-			<a href="/posts" class="italic">{"<- all posts"}</a>
+			<a href="/posts" class="italic">{"< all posts"}</a>
 			<h1 class="text-center">Working With Fresh</h1>
 			<p>Having just finished Scrimba's full stack developer path I set out to create a portfolio site.  Having had significant experience during training with tools such as React, nodejs and Nextjs I wanted to challenge myself a little in developing this site.</p>
+			<br/>
 			<p>Realising the ocean of tools, SDKs, frameworks and runtimes out there I have enjoyed dipping my toes in to see what others had to offer and many still feel very appealing.  However it was fresh I went with for a handful of reasons.  I wanted to use new tooling for this site to further my learning and utilise my skills to decipher the docs and build something that works, to show myself, and I hope others, that I can.</p>
 			<h2>Why Fresh</h2>
 			<p>Quickly, why Fresh?  Fresh became known to me shortly after I found Deno, I had been merrily working on node applications during my training and started to explore what other runtimes existed.  The desire to use one was peaked with several security incidents across the last few years with npm packages, whilst I learnt how to implement better controls on my interactions with npm as a new developer I was very intrigued by a runtime that reported to have a permissions system built in for what my apps where asking the runtime to do.</p>
@@ -29,7 +30,7 @@ export default define.page(function Post () {
 			<hr/>
 			<blockquote>Music recommendation whilst making this site Pylon by beabadoobee</blockquote>
 			<hr/>	
-			<a href="/posts" class="italics block text-center">return to all posts</a>
+			<a href="/posts" class="italic block text-center">| return to all posts |</a>
 		</article>
 	</>	
 	)

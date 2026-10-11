@@ -9,7 +9,7 @@ export default define.layout(function RootLayout ({Component, state, url}) {
 
   return (
     <div class="flex min-h-screen flex-col justify-between" f-client-nav f-view-transition>
-      <div class='flex justify-between pt-[1em] ml-[2em] mr-[2em] items-center'>
+      <div class='md:flex-row md:justify-between flex flex-col pt-[1em] ml-[2em] mr-[2em] items-center'>
 				<a href="/" class={`text-[1.25em] ${url.pathname === "/" ? "font-bold" : ""}`}>
 	  			<h2 class='text-[2rem] font-bold'>CDW</h2>
 				</a>

@@ -15,7 +15,7 @@ export default define.page(function About () {
 I am keen to work on varied projects in passionate teams.  I am always looking to test my understanding and develop new skills by trying out new frameworks, SDKs and methodologies. I have previously worked as a Charted Engineer after studying a related physics/engineering degree at university in the midlands.<br/><br/>
 Whilst this site is focused on programming a web development you can also peak my interest by discussing music (almost any genre will do), travel and other cultures, cooking, ancient history, and gardening specifically vegetable cultivation.<br/><br/>
 
-Contact me about any of the above, or maybe something else, <a href='/contact'>here</a>.</p>
+Contact me about any of the above, or maybe something else <a href="/contact" class="italic">here</a>.</p>
            </div>
 	   <nav class="flex gap-[1em] my-[1.5em] items-center justify-center text-[1.25rem] font-bold">
 	     <a href='https://codeberg.org/bor-eal' target='_blank'>Codeberg</a>

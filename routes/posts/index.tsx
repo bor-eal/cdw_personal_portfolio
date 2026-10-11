@@ -14,7 +14,7 @@ export default define.page(function Posts () {
 									index={1}
 									href="posts/1"
 									description="Learn about the creation of this site and my thoughts as a fresh faced developer using fresh"
-									date="10/10/2026"/>
+									date="11/10/2026"/>
   		</div>  
 	
 		)

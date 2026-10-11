@@ -94,7 +94,7 @@ button[type="submit"] {
 /*Article Post Styling */
 
 article {
-	margin: 1rem 2rem 4rem;
+	margin: 1rem 3rem 4rem;
 }
 
 article > h1 {
@@ -106,6 +106,7 @@ article > h2 {
 }
 
 article > p {
+	font-size: 1.25rem;
 	line-height: 1.75em;
 }
 
@@ -114,5 +115,6 @@ article > p {
 @media (width >= 48rem) {
 	article > h2 {
 		text-align: left;
+		margin: 1rem auto 4rem;
 	}
 }

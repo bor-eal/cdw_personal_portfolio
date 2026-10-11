@@ -10,7 +10,7 @@ export default define.page(function Contact () {
 	     		<title>Contact CDW</title>
 	   		</Head>
 	   			<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-  					<h1 class='text-[2rem] my-[1em]'>Under Construction [Contact CDW]</h1>
+  					<h1 class='text-[2rem] mx-auto my-[1em] text-center'>Under Construction [Contact CDW]</h1>
 						<form class='grid gap-y-[1.5em] justify-center align-center'>
 							<label>name (whatever you want to be addressed as)
 								<input disabled class='block' type='text' placeholder='Winton'/>
