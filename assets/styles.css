@@ -46,28 +46,6 @@ a:hover {
 
 /*Layout*/
 
-/* Using positon to distibute footer*/
-body {
-	position: relative;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	margin: 1rem auto;
-	text-align: center;
-	width: 100vw;
-}
-
-
-/* Consideration of using flex to distribute the body's content
-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-*/
-
 /*Typography*/
 
 footer a {
