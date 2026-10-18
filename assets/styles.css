@@ -1,3 +1,8 @@
+/*
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap";
+*/
 @import "tailwindcss";
 
 html[data-theme='dark'] {
@@ -22,13 +27,13 @@ html[data-theme='light'] {
 
 body {
 	box-sizing: border-box;
-	font-family: 'Candara', sans-serif;
+	font-family: "Quicksand", "Raleway", sans-serif;
 	background-color: var(--background-color);
 	color: var(--color);
 }
 
 button {
-	font-family: 'Candra', sans-serif;
+	font-family: "Quicksand", sans-serif;
 	cursor: pointer;
 	background-color: var(--button-bg-color)
 }
@@ -49,7 +54,7 @@ a:hover {
 /*Typography*/
 
 footer a {
-	font-family: 'Courier New', monospace; 
+	font-family: "Edu QLD Hand", 'Courier New', monospace; 
 }
 
 h1 {
@@ -72,6 +77,10 @@ h4 {
 blockquote {
 	font-style: italic;
 	text-align:center;
+}
+
+.logo {
+	font-family: "Playwrite AR", cursive, 'Candara', sans-serif;
 }
 
 /*Style*/

@@ -17,7 +17,7 @@ export default define.page(function Trove () {
 	   				imgURL='/elf_exchange_screenshot.png'
 	    			alt='Screenshot of Elf Exchange Website'
 	    			description={`This simple app allows the user to generate a series of gifting pairs
-	    			ignoring any pairings the user disallows.  Pairs are generated randomly and the user cna move back and forth
+	    			ignoring any pairings the user disallows.  Pairs are generated randomly and the user can move back and forth
 	    			between the steps as needed.
 
 	    			This was made fairly early in my journey and remains a fun project that utilises a more vanilla approach
