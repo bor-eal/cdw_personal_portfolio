@@ -1,0 +1,10 @@
+<svg 
+	width="150" 
+	height="150" 
+	xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M15 15 L135 15 M15 55 L135 55 M15 95 L135 95" 
+				stroke="inherit" 
+				stroke-width="1em"
+				fill="none" />
+</svg>

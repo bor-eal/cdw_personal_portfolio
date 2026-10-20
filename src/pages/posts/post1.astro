@@ -1,9 +1,7 @@
-import { define } from '@/utils.ts'
-
-
-export default define.page(function Post () {
-	return (
-	<>
+---
+import Layout from '../../layouts/Layout.astro'
+---
+<Layout title="CDW Posts: Working with Fresh">
 		<article class="max-w-6xl mx-auto">
 			<a href="/posts" class="italic">{"< all posts"}</a>
 			<h1 class="text-center">Working With Fresh</h1>
@@ -32,6 +30,4 @@ export default define.page(function Post () {
 			<hr/>	
 			<a href="/posts" class="italic block text-center">| return to all posts |</a>
 		</article>
-	</>	
-	)
-})
+</Layout>

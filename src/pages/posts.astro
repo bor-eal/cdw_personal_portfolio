@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PostBox from '../components/PostBox.astro'
+---
+<Layout title="Posts List">
+	<div class='max-w-4xl text-center grid justify-center align-center mx-auto'>
+		<h1 class="m-[1em]">Posts</h1>
+		<PostBox title="Working with Fresh: Building this site" 
+							index={1}
+							href="/posts/post1"
+							description="Learn about the creation of this site and my thoughts as a fresh faced developer using fresh"
+							date="11/10/2026"/>
+  </div>  
+</Layout>	

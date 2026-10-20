@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+interface Props {
+  error: unknown;
+}
+
+const { error } = Astro.props;
+
+console.log(error)
+
+const errorPage=`
+				<div class="flex justify-center items-center my-[2rem]">
+					<h1 class="border-e p-[.5em] mx-[1em]">{status}</h1>
+					<p>Page not found - Let me know if you think it should: <a href="/contact">contact me</a></p>
+				</div>`			
+
+---
+<Layout title="Error">
+	<div class="flex justify-center items-center my-[2rem]">
+		<h1 class="border-e p-[.5em] mx-[1em]">404</h1>
+		<p>Page not found - Let me know if you think it should: <a href="/contact">contact me</a></p>
+	</div>			
+</Layout>

@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import TroveBox from '../components/TroveBox.astro'
+---
+<Layout title="Trove of Self Made Things">    
+	<div class="px-4 py-8 mx-auto">
+		<div class="mx-auto flex flex-col items-center justify-center">
+      <h1 class="text-[2rem] my-[1.5em]">Trove of Self Made Things</h1>
+	  	<div class='flex mg-t-10'>
+	  		<TroveBox
+	    		href='https://elf-exchange.callumdw.dev'
+	    		title='Elf Exchange'
+	   			imgURL='/elf_exchange_screenshot.png'
+	    		alt='Screenshot of Elf Exchange Website'
+	    		description={`This simple app allows the user to generate a series of gifting pairs
+	    		ignoring any pairings the user disallows.  Pairs are generated randomly and the user can move back and forth
+	    		between the steps as needed.
+
+	    		This was made fairly early in my journey and remains a fun project that utilises a more vanilla approach
+	    		with some fun flares.`}
+	  			/>
+	  	</div>
+    </div>
+  </div>
+</Layout>  
