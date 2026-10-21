@@ -3,6 +3,7 @@ import Footer from '../components/Footer.astro'
 import Nav from '../components/Nav.astro'
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
+import Toggle from '../components/Toggle.jsx'
 
 interface Props {
 	title: string
@@ -10,7 +11,7 @@ interface Props {
 
 const {title} = Astro.props
 ---
-
+		<!DOCTYPE html>
     <html data-theme='dark'>
       <head>
         <meta charset="utf-8" />
@@ -27,6 +28,7 @@ const {title} = Astro.props
 						</a>
 					<div class='flex gap-[1.25em] items-center'>
 					<Nav/>
+					<Toggle client:load/>
 					</div>
 					</div>     
     			<main>
