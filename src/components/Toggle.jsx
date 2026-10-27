@@ -46,9 +46,7 @@ console.log('applying theme')
 
 	return (
 	
-	<div class='w-[2em] h-[1.5em] flex items-left border-white rounded-full border-x-2 p-x-[0.25em] p-y-[0.1em] justify-center'>
-	<button class='w-[.8em] h-[.8em] rounded-full ' onClick={toggleTheme}></button>
-</div>
+	<button class='user-toggle w-[1.75em] h-[1.25em] rounded-full border-2' onClick={toggleTheme}></button>
 )
 
 }
