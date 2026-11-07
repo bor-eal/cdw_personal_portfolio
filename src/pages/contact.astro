@@ -1,22 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
 ---
 <Layout title='Contact CDW'>
 	<div class="px-4 py-8 mx-auto">
-		<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-  		<h1 class='text-[2rem] mx-auto my-[1em] text-center'>Under Construction [Contact CDW]</h1>
-			<form class='grid gap-y-[1.5em] justify-center align-center'>
-				<label>name (whatever you want to be addressed as)
-					<input disabled class='block' type='text' placeholder='Winton'/>
-				</label>
-				<label>email
-					<input disabled type='email' class='block' placeholder='winton@gmail.com'/>
-				</label>
-				<label>message
-					<textarea disabled class='block'></textarea>
-				</label>
-				<button type="submit" disabled={true} style={{cursor: 'not-allowed'}}>Reach Out</button>
-			</form>        
+		<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center contact">
+  		<h1 class='text-[2.25rem] mx-auto my-[1em] text-center'>Contact Me</h1>
+			<p>Please feel free to contact me at <a href="mailto:contact@callumdw.dev" class='contact-link'>contact@callumdw.dev</a> with comments, queries, observations or requests.  The mailbox is actively monitored and I look forward to hearing from you.</p>
 		</div>
 	 </div>
 </Layout>

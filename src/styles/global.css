@@ -78,6 +78,17 @@ blockquote {
 	font-family: "Playwrite AR", cursive, 'Candara', sans-serif;
 }
 
+.contact-link {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.contact {
+	font-size: 1.25rem;
+	line-height: 1.75em;	
+}
+
+
 /*Style*/
 hr {
 	margin: 1.5rem .75rem;
