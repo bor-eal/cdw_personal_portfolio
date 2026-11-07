@@ -117,6 +117,18 @@ article > p {
 	margin-top: 0;
 }
 
+article > p > a {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.article-date {
+	font-size: 0.9rem;
+	font-style: italic;
+	margin: 0 auto 1rem;
+	text-align: center;
+}
+
 
 /*Media Queries for the article */
 
